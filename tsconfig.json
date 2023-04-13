@@ -1,0 +1,20 @@
+{
+  "include": ["./src"],
+  "exclude": ["./node_modules", "./build"],
+  "compilerOptions": {
+    "target": "es2020",
+    "experimentalDecorators": false,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "rootDirs": ["./src"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": false,
+    "verbatimModuleSyntax": true
+  }
+}
